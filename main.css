@@ -1,6 +1,7 @@
 body{background-image: url('assets/CardBackground.svg');
 background-size: cover;
 font-family: "Montserrat", serif;
+height: 100vh;
 
 }
 
@@ -24,11 +25,11 @@ font-family: "Montserrat", serif;
     fill: rgb(167, 167, 167);
   }
 .card{
+    margin: auto;
     position: relative;
     width: 300px;
     height: 400px;
-    background-color: #516850
-    ;
+    background-color: #516850;
 }
 
 /* font styling */
