@@ -27,22 +27,7 @@ height: 100vh;
     padding-right: 10px;
   }
 
-  svg{
-    fill: white;    
-  }
-
-  a{
-    fill: white;
-  }
-
-  svg:hover{
-    fill: #516850;
-  }
-
-  a:hover{
-    fill: #516850;
-  }
-
+  
 .card{
     margin: auto;
     position: relative;
@@ -53,6 +38,8 @@ height: 100vh;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(26,26,26,1) 0%, rgba(81,104,80,1) 100%);
 }
 
 /* font styling */
@@ -74,3 +61,40 @@ h2{
     position: absolute;
     bottom: 0;
 }
+
+/* svg style and hover effects */
+svg{
+    fill: white;    
+  }
+
+  a{
+    fill: white;
+  }
+
+  svg:hover{
+    fill: #516850;
+  }
+
+  a:hover{
+    fill: #516850;
+  }
+
+  @keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.2, 1.2, 1.2);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
