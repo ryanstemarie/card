@@ -1,3 +1,40 @@
 body{background-image: url('assets/CardBackground.svg');
 background-size: cover;
+font-family: "Montserrat", serif;
+
+}
+
+.logo-container{
+    width: 10%
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 15%;
+  }
+
+  svg{
+    fill: white;
+  }
+
+  svg:hover{
+    fill: rgb(222, 156, 156);
+  }
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #516850
+    ;
+}
+
+/* font styling */
+h1{
+    font-weight: 400;
+    
+}
+h2{
+    font-weight: 400;
 }
