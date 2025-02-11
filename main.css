@@ -28,9 +28,13 @@ height: 100vh;
   }
 
   svg{
-    fill: white;
+    fill: white;    
   }
 
+  a{
+    fill: white;
+  }
+  
   svg:hover{
     fill: rgb(167, 167, 167);
   }
@@ -48,6 +52,7 @@ height: 100vh;
 /* font styling */
 h1{
     font-weight: 450;
+    font-size: 38px;
     color: white;
     text-align: left;
     padding-left: 20px;
