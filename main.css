@@ -34,15 +34,20 @@ height: 100vh;
   a{
     fill: white;
   }
-  
+
   svg:hover{
-    fill: rgb(167, 167, 167);
+    fill: #516850;
   }
+
+  a:hover{
+    fill: #516850;
+  }
+
 .card{
     margin: auto;
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 450px;
     background-color: #516850;
     position: relative;
     top: 50%;
