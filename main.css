@@ -38,9 +38,21 @@ height: 100vh;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 12px;
-    background: rgb(2,0,36);
-    background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(26,26,26,1) 0%, rgba(81,104,80,1) 100%);
+
 }
+
+.noise {
+        /* ... */
+        background: 
+        linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(26,26,26,1) 0%, rgba(81,104,80,1) 100%),
+        url("assets/noise.svg");
+        /* contrast(170%) brightness(1000%); */
+      }
+      .overlay {
+        /* ... */
+        background: moccasin;
+        mix-blend-mode: multiply;
+      }
 
 /* font styling */
 h1{
