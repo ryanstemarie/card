@@ -1,9 +1,9 @@
-# Project Overview
+## Project Overview
 
-## What I Learned
+### What I Learned
 This project was my first introduction into coding and the use of HTML and CSS. As a beginner coder, all of this information was brand new to me and seemed intimidating at first. With tutorials and additional help I felt I was really diving into this project and learning so much. Although overwhelming at first, I feel that things really started to make a lot of sense to me the further in I got and I could breeze through my HTML and CSS documents. I now have experience with HTML aspects such as headers, containers, links, and even meta data. Along with this I learned many aspects of whats possible in CSS such as changing fonts, colors, text sizing, svg animations, and much more. I think this project was a perfect introduction into the world of coding and taught me so much at the perfect pace.
 
-## Project Aspects & Design
+### Project Aspects & Design
 This project is a single page website layout meant to be used as a digital version of a business card. The design includes a central card layout with my name and professional title, a background image, and icons at the top of the page serving as links to my other social profiles. I used both my design and photography skills together to create the final product. The website includes icons at the top that link to my GitHub profile, my email, my Behance profile, and my LinkedIn profile. I added hover effects and color changes to these icons to add more interactive features. Another personal favorite detail of mine is the custom cursor I added for the webpage which also has color changing effects applied. Finally, I added a favicon to the website to make it more personalized and finished out the project as a well rounded digital business card site.
 
 ### Problem Solving
