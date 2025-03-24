@@ -1,4 +1,5 @@
-body{background-image: url('assets/CardBackground.svg');
+body{
+background-image: url('assets/CardBackground.svg');
 background-size: cover;
 font-family: "Montserrat", serif;
 height: 100vh;
